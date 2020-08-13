@@ -1,0 +1,98 @@
+SimCenter Programming Bootcamp
+
+https://nheri-simcenter.github.io/SimCenterBootcamp2020/source/setupInstructions.html
+
+Windows Computer
+These instructions are for a Windows 10 computer. You need to install Python, ssh and git.
+
+Note
+
+These instructions should work for other versions of windows. However you will need to test them. In addition you will need to install a working version of ssh on your system. This is preloaded on Windows 10 machines.
+
+Fork the SimCenter Code Repository
+Go to github and sign in or sign up.
+
+Go to the SimCenterBootcamp2020 repository.
+
+In the very top right corner, where it has fork and a number beside it, click the fork button. This will create a fork of the Bootcamp repo in your own account.
+
+Install Git
+Install git from the git download page. Once installed, open up powershell and clone your copy of the bootcamp repo by typing the following in powershell terminal:
+
+git clone https://github.com/fmckenna/SimCenterBootcamp2020.git
+Warning
+
+replace fmckenna with your github login name
+
+Note
+
+To start a powershell window you use the search option and type PowerShell. Start the PowerShell application when it pops up.
+
+Install Python on Windows
+If you have not yet installed Python 3.7, we recommend installing Python 3.7 from Python.org. We recommend installing using the Windowsx86 64-bit executable installer.
+
+Note
+
+Allow the installer to change your system environment variables so that the directory containing the executable is on your path. This requires checking the small box asking for this when the installer starts. The box is located at bottom of installer application window.
+
+Warning
+
+The latest version of Python is 3.8.5 At time of writing Python 3.8.5 was not working with the current numpy package.
+
+Once Python is installed, you need to extend it by installing a number of packages. To install these packages, start a terminal window as an Admin user and in that window type the following instructions:
+
+pip install numpy
+pip install scipy
+pip install matplotlib
+pip install pandas
+pip install openpyxl
+pip install xlrd
+pip install xlwt
+pip install xlsxwriter
+pip install selenium
+pip install bs4
+pip install lxml
+pip install requests
+pip install geopandas
+pip install census
+pip install us
+pip install notebook
+Note
+
+This step can also be done inside the PowerShell that you had previously opened. This is demonstrated in the video.
+
+Test the Install of Python
+In powerwhell cd to the SimCenterBootcamp2020 folder and type the following.
+
+cd code
+cd jupyter
+jupyter-notebook
+This should open the browser running jupyter-notebook. Select any of the .ipynb files and it should open the notebook.
+
+====================================================
+8/10/20
+PYTHON (videos)
+- first steps & basic concepts
+new line = ESC+B
+- python basics
+as markdown (equation/text)
+$$
+\sigma = \frac{F}{A} \pm \frac{Mc}{I}
+$$
+- data types
+- list versus tuple
+- list slicing
+
+====================================================
+8/11/20
+HW#1 discussion
+- Boolean variables
+- Loops
+- Matrix data types
+
+===================================================
+8/12/20
+- file handling (read, write, exceptional handling)
+open txt file in terminal (powershell) --> type simpleData.txt
+import from txt --> string type
+- classes (objects, inheritance)
