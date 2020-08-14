@@ -96,3 +96,8 @@ HW#1 discussion
 open txt file in terminal (powershell) --> type simpleData.txt
 import from txt --> string type
 - classes (objects, inheritance)
+
+=========
+Day 5
+git fetch upstream
+git merge upstream/master
