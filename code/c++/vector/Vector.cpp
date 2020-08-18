@@ -1,3 +1,4 @@
+#include <math.h>
 #include <iostream>
 #include "Vector.h"
 
@@ -29,6 +30,10 @@ Vector::zero(void)
 double 
 Vector::norm(void) const
 {
+  double normal=0;
+  for(int i=0;i<size;i++)
+    normal+=data[i]*data[i];
+  return sqrt(normal);
   return 0;
 }
 
