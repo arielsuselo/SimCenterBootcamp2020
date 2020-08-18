@@ -106,6 +106,17 @@ git merge upstream/master
 git push origin master
 
 git clone in TACC:
+cd to SimCenterBootcamp2020 folder
+
+if you changes something:
+git add .
+git commit -m "updates"
+
+git fetch ...
+git merge ..
+shift-zz 
+
+first time copy:
 git clone  https://github.com/YOUR-GITHUB-USERNAME/SimCenterBootcamp2020.git
 
 When running
@@ -125,8 +136,8 @@ change command text color in powershell --> Set-PSReadLineOption -colors @{ Comm
 ctrl-x ctrl-s --> save emacs
 ctrl-x ctrl-c --> close emacs
 ctrl-x ctrl-f
-ctrl-x2
-ctrl-xo
+ctrl-x 2 or 3 (split screen horizontal or vertical buffer)
+ctrl-x o (switch between buffers)
 ctrl-k
 
 cat hello1.c --> show the code
@@ -139,3 +150,8 @@ export OMP_NUM_THREADS=8
 
 %=============
 Day 7
+
+abstractions
+
+c++
+compile command --> make (look for Makefile)
