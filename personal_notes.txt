@@ -96,3 +96,46 @@ HW#1 discussion
 open txt file in terminal (powershell) --> type simpleData.txt
 import from txt --> string type
 - classes (objects, inheritance)
+
+=========
+Day 5
+
+git fork update steps:
+git fetch upstream
+git merge upstream/master
+git push origin master
+
+git clone in TACC:
+git clone  https://github.com/YOUR-GITHUB-USERNAME/SimCenterBootcamp2020.git
+
+When running
+./a.out. < count.c
+The “<“ is an input redirect
+And it sends the contents of count.c into the code.
+The OS sends EOF when it hits the end of the file
+
+=============
+Day 6
+Paralel processing - MPI
+
+move up one dir --> cd ..
+
+change command text color in powershell --> Set-PSReadLineOption -colors @{ Command = "Green"}
+
+ctrl-x ctrl-s --> save emacs
+ctrl-x ctrl-c --> close emacs
+ctrl-x ctrl-f
+ctrl-x2
+ctrl-xo
+ctrl-k
+
+cat hello1.c --> show the code
+
+compile mpi --> mpicc
+ibrun --> run the app (make sure it's in compute node --> idev)
+
+time ./a.out
+export OMP_NUM_THREADS=8
+
+%=============
+Day 7
