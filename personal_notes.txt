@@ -112,9 +112,15 @@ if you changes something:
 git add .
 git commit -m "updates"
 
-git fetch ...
-git merge ..
-shift-zz 
+fetch and merge with upstream:
+git fetch upstream
+git merge upstream/master
+git push origin master (updates personal forks)
+shift-zz
+
+update from local repo:
+git pull
+git push origin master
 
 first time copy:
 git clone  https://github.com/YOUR-GITHUB-USERNAME/SimCenterBootcamp2020.git
