@@ -141,7 +141,7 @@ change command text color in powershell --> Set-PSReadLineOption -colors @{ Comm
 
 ctrl-x ctrl-s --> save emacs
 ctrl-x ctrl-c --> close emacs
-ctrl-x ctrl-f
+ctrl-x ctrl-f --> open file
 ctrl-x 2 or 3 (split screen horizontal or vertical buffer)
 ctrl-x o (switch between buffers)
 ctrl-k
