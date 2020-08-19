@@ -1,5 +1,6 @@
 #include <math.h>
 #include <iostream>
+#include <cmath>
 #include "Vector.h"
 
 Vector::Vector(int sz)
