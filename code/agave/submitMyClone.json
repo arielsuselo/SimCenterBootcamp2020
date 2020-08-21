@@ -1,8 +1,8 @@
 {
     "name": "example",
-    "appId": "myClone2-0.0.1",
+    "appId": "SimCenterTest-0.0.1",
     "inputs": {
-      "inputDirectory": "agave://designsafe.storage.default/tg457427/testClone"
+      "inputDirectory": "agave://designsafe.storage.default/asuselo/test"
     },
     "parameters" : {
       "programFile":"piMPI.c"
@@ -17,7 +17,7 @@
     "archiveSystem":"designsafe.storage.default",
     "notifications": [
       {
-        "url" : "fmckenna@berkeley.edu",
+        "url" : "arielsuselo@utsa.edu",
         "event": "*"
       }
     ]
