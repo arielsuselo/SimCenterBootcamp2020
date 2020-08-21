@@ -169,3 +169,18 @@ compile command --> make (look for Makefile)
 Day 8
 
 machine learning
+
+jupyter notebook --> code/jupyter/07 ML
+ML-Part-1
+
+pip install seaborn
+pip install sklearn
+
+- google colab
+- TensorFlow
+
+%=============
+Day 9
+
+.local/bin/tapis
+~/.local/bin/tapis
