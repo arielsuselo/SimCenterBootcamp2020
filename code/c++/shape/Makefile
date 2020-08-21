@@ -1,6 +1,6 @@
 
 # COMPILER = icc
-COMPILER = clang
+COMPILER = g++
 FLAGS = -D_DEBUG
 
 all:
